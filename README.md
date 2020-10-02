@@ -17,7 +17,7 @@ $ docker run \
 	--rm --tty --interactive \
 	--publish "8085:8085" \
 	--name "pubsub_emulator" \
-	"alma/gcp-pubsub-emulator:latest"
+	"getalma/gcp-pubsub-emulator:latest"
 ```
 
 or using `docker-compose`:
